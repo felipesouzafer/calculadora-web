@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta');
 
-
+/*Cores usadas no site*/
 :root{
     --white: #FFF;
     --dark1: #181818;
@@ -21,6 +21,8 @@
 body{
     background-color: var(--dark1);
 }
+
+/*CSS da Calculadora*/
 
 .fundo{
     height: 100%;

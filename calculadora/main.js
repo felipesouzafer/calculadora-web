@@ -1,11 +1,18 @@
+
+// Função de inserir o número
+
 function insert(num){
     var numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num;
 }
 
+// Função de limpar os numeros
+
 function clean(){
     document.getElementById('resultado').innerHTML = "";
 }
+
+// Função de deletar o último número inserido
 
 function back(){
      var resultado = document.getElementById('resultado').innerHTML;
